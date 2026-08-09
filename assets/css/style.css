@@ -272,6 +272,19 @@ img {
 
   color: #fff;
 }
+/*=========================================================
+              MOBILE MENU BUTTON
+=========================================================*/
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px;
+}
 
 /*=========================================================
                     HERO SECTION
@@ -740,7 +753,8 @@ img {
 =========================================================*/
 
 .facilities {
-  background: #f8f9fb;
+  background: #f5f7fb;
+  padding-top: 25px;
 }
 
 .facility-grid {
@@ -801,6 +815,7 @@ img {
 
 .gallery {
   background: #fff;
+  padding-top: 25px;
 }
 
 .gallery-grid {
@@ -830,13 +845,16 @@ img {
 
   box-shadow: var(--shadow);
 }
+.gallery .btn {
+  margin-top: -15px;
+}
 
 /*=========================================================
                 CONTACT PREVIEW
 =========================================================*/
 
-.contact-preview {
-  background: var(--light);
+.contact-preview .btn {
+  margin-bottom: 30px;
 }
 
 .contact-grid {

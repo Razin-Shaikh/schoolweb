@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>School Rules | St. Mary's School, Newasa</title>
+
+    <link rel="icon" href="assets/images/logo/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+
+        /* Rules-page-specific styles (safe to move into style.css) */
+
+        .rules-list {
+
+            list-style: none;
+
+            padding: 0;
+
+            margin: 0;
+
+            counter-reset: rule-counter;
+
+        }
+
+        .rules-list li {
+
+            counter-increment: rule-counter;
+
+            position: relative;
+
+            padding: 14px 0 14px 46px;
+
+            border-bottom: 1px solid rgba(0,0,0,0.08);
+
+            font-size: 15px;
+
+            line-height: 1.6;
+
+        }
+
+        .rules-list li::before {
+
+            content: counter(rule-counter);
+
+            position: absolute;
+
+            left: 0;
+
+            top: 12px;
+
+            width: 28px;
+
+            height: 28px;
+
+            background: var(--primary-color, #0b3d91);
+
+            color: #fff;
+
+            border-radius: 50%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-size: 13px;
+
+            font-weight: 600;
+
+        }
+
+        .rules-block h3 {
+
+            margin-bottom: 10px;
+
+        }
+
+        .rules-block {
+
+            margin-bottom: 40px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<!-- ================= TOP BAR ================= -->
+
+<div class="top-bar">
+
+    <div class="container top-bar-content">
+
+        <div class="top-left">
+
+            <i class="fas fa-map-marker-alt"></i>
+
+            Newasa, Ahilyanagar, Maharashtra
+
+        </div>
+
+        <div class="top-right">
+
+            <span><i class="fas fa-phone"></i> +91 XXXXX XXXXX</span>
+
+            <span><i class="fas fa-envelope"></i> info@stmarysnewasa.edu.in</span>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= HEADER ================= -->
+
+<header class="main-header">
+
+    <div class="container header-content">
+
+        <a href="index.html" class="logo-area">
+
+            <img src="assets/images/logo/school-logo.png" alt="School Logo">
+
+            <div class="school-name">
+
+                <h1>St. Mary's School</h1>
+
+                <p>Newasa</p>
+
+            </div>
+
+        </a>
+
+        <nav>
+
+            <ul class="navbar">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About Us</a></li>
+
+                <li><a href="academics.html">Academics</a></li>
+
+                <li><a href="admissions.html">Admissions</a></li>
+
+                <li><a href="facilities.html">Facilities</a></li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+
+                <li><a class="active" href="rules.html">School Rules</a></li>
+
+                <li><a href="contact.html">Contact Us</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- ================= PAGE BANNER ================= -->
+
+<section class="page-banner">
+
+    <img src="assets/images/backgrounds/rules-banner.jpg"
+        alt="School Rules Banner">
+
+    <div class="banner-overlay">
+
+        <div class="container">
+
+            <h1>School Rules</h1>
+
+            <p>Home / School Rules</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= INTRO ================= -->
+
+<section class="academic-overview">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <h5>DISCIPLINE & CONDUCT</h5>
+
+            <h2>School Rules & Regulations</h2>
+
+            <p>
+
+                These rules help maintain a safe, disciplined and
+                respectful environment where every student can learn
+                and grow. Parents and students are requested to read
+                and follow them carefully.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= GENERAL DISCIPLINE ================= -->
+
+<section class="curriculum">
+
+    <div class="container">
+
+        <div class="rules-block">
+
+            <h3><i class="fas fa-gavel"></i>&nbsp; General Discipline</h3>
+
+            <ul class="rules-list">
+
+                <li>Students must reach school before the assembly bell and maintain punctuality throughout the day.</li>
+
+                <li>Students are expected to be regular, and leave applications must be submitted in advance for planned absences.</li>
+
+                <li>Respect towards teachers, staff, elders and fellow students is expected at all times.</li>
+
+                <li>Students must maintain silence and discipline during assembly, prayer and class hours.</li>
+
+                <li>Use of unfair means during examinations or tests will attract strict disciplinary action.</li>
+
+                <li>Damage to school property will require compensation from the student/parent.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="rules-block">
+
+            <h3><i class="fas fa-book"></i>&nbsp; Attendance & Leave</h3>
+
+            <ul class="rules-list">
+
+                <li>A minimum attendance percentage, as prescribed by the school, is required to appear for examinations.</li>
+
+                <li>Sick leave of more than three days requires a medical certificate.</li>
+
+                <li>Prior written permission is required for early dismissal from school.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="rules-block">
+
+            <h3><i class="fas fa-mobile-alt"></i>&nbsp; Conduct & Prohibited Items</h3>
+
+            <ul class="rules-list">
+
+                <li>Mobile phones and other electronic gadgets are not permitted on school premises unless specifically authorised.</li>
+
+                <li>Bullying, ragging or any form of misconduct will not be tolerated and may lead to strict action, including suspension.</li>
+
+                <li>Students must not bring valuables or large sums of money to school.</li>
+
+            </ul>
+
+        </div>
+
+        <div class="rules-block">
+
+            <h3><i class="fas fa-tshirt"></i>&nbsp; Uniform & Appearance</h3>
+
+            <ul class="rules-list">
+
+                <li>Students must wear the complete, correct school uniform on all working days.</li>
+
+                <li>Neat and tidy appearance, including hairstyle and footwear, is compulsory as per school guidelines.</li>
+
+                <li>Sports uniform is to be worn only on designated days.</li>
+
+            </ul>
+
+        </div>
+
+        <p style="text-align:center;">
+
+            <em>*Replace/expand the above with the exact rules from the
+            official school handbook, and remove any that don't apply.*</em>
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- ================= CTA ================= -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>Questions About Our Policies?</h2>
+
+        <p>
+
+            Feel free to reach out to the school office for any
+            clarification regarding rules and discipline.
+
+        </p>
+
+        <a href="contact.html" class="btn-primary">
+
+            Contact Us
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-container">
+
+        <div class="footer-column">
+
+            <img src="assets/images/logo/school-logo.png"
+                alt="School Logo"
+                class="footer-logo">
+
+            <h3>St. Mary's School</h3>
+
+            <p>
+
+                An English Medium Convent School managed by the
+                Ursuline Sisters of Mary Immaculate.
+
+            </p>
+
+            <p>
+
+                <strong>"Let Your Light Shine"</strong>
+
+            </p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About Us</a></li>
+
+                <li><a href="academics.html">Academics</a></li>
+
+                <li><a href="admissions.html">Admissions</a></li>
+
+                <li><a href="facilities.html">Facilities</a></li>
+
+                <li><a href="gallery.html">Gallery</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Contact</h3>
+
+            <p><i class="fas fa-map-marker-alt"></i> Newasa, Ahilyanagar</p>
+
+            <p><i class="fas fa-phone"></i> +91 XXXXX XXXXX</p>
+
+            <p><i class="fas fa-envelope"></i> info@stmarysnewasa.edu.in</p>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+
+            © 2026 St. Mary's School, Newasa. All Rights Reserved.
+
+        </p>
+
+        <p>
+
+            Designed & Developed by <strong>Razin Shaikh</strong>
+
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
